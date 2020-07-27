@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Suite" duration-ms="13203" started-at="2020-07-23T16:37:46Z" finished-at="2020-07-23T16:37:59Z">
+    <groups>
+    </groups>
+    <test name="Module 2" duration-ms="13166" started-at="2020-07-23T16:37:46Z" finished-at="2020-07-23T16:37:59Z">
+      <class name="com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="12" started-at="2020-07-23T16:37:46Z" finished-at="2020-07-23T16:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="761" started-at="2020-07-23T16:37:46Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-07-23T16:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="setUp" is-config="true" duration-ms="6949" started-at="2020-07-23T16:37:47Z" finished-at="2020-07-23T16:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="12" started-at="2020-07-23T16:37:54Z" finished-at="2020-07-23T16:37:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.verifyHomePage() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:1, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="verifyHomePage" duration-ms="897" started-at="2020-07-23T16:37:54Z" finished-at="2020-07-23T16:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.verifyHomePage() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.verifyVisaRegistrationFormPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyVisaRegistrationFormPage()[pri:2, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="verifyVisaRegistrationFormPage" duration-ms="135" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVisaRegistrationFormPage -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.verifyVisaRegistrationFormPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.visaRegistration() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="visaRegistration()[pri:3, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="visaRegistration" duration-ms="1785" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visaRegistration -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-07-23T16:37:57Z" finished-at="2020-07-23T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.visaRegistration() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="registrationConfirmation()[pri:4, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="registrationConfirmation" duration-ms="1763" started-at="2020-07-23T16:37:57Z" finished-at="2020-07-23T16:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmation -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-07-23T16:37:57Z" finished-at="2020-07-23T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.registrationConfirmation() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="tearDown" is-config="true" duration-ms="819" started-at="2020-07-23T16:37:58Z" finished-at="2020-07-23T16:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-07-23T16:37:58Z" finished-at="2020-07-23T16:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.registrationConfirmation() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@4f2b503c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2020-07-23T16:37:59Z" finished-at="2020-07-23T16:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests -->
+    </test> <!-- Module 2 -->
+    <test name="Module 1" duration-ms="13203" started-at="2020-07-23T16:37:46Z" finished-at="2020-07-23T16:37:59Z">
+      <class name="com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="12" started-at="2020-07-23T16:37:46Z" finished-at="2020-07-23T16:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="762" started-at="2020-07-23T16:37:46Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-07-23T16:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="setUp" is-config="true" duration-ms="7158" started-at="2020-07-23T16:37:47Z" finished-at="2020-07-23T16:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:1, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="verifyHomePage" duration-ms="829" started-at="2020-07-23T16:37:54Z" finished-at="2020-07-23T16:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-07-23T16:37:54Z" finished-at="2020-07-23T16:37:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.verifyHomePage() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.verifyHomePage() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="verifyVisaRegistrationFormPage()[pri:2, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="verifyVisaRegistrationFormPage" duration-ms="131" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVisaRegistrationFormPage -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.verifyVisaRegistrationFormPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.verifyVisaRegistrationFormPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.visaRegistration() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="visaRegistration()[pri:3, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="visaRegistration" duration-ms="1791" started-at="2020-07-23T16:37:55Z" finished-at="2020-07-23T16:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visaRegistration -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-07-23T16:37:57Z" finished-at="2020-07-23T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.visaRegistration() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-07-23T16:37:57Z" finished-at="2020-07-23T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.registrationConfirmation() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="registrationConfirmation()[pri:4, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="registrationConfirmation" duration-ms="1760" started-at="2020-07-23T16:37:57Z" finished-at="2020-07-23T16:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmation -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-07-23T16:37:59Z" finished-at="2020-07-23T16:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests.registrationConfirmation() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="tearDown" is-config="true" duration-ms="746" started-at="2020-07-23T16:37:59Z" finished-at="2020-07-23T16:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests@73e22a3d]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-07-23T16:37:59Z" finished-at="2020-07-23T16:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.continuous.testing.seleniumwithspringboot.testcases.VisaRegistrationTests -->
+    </test> <!-- Module 1 -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
